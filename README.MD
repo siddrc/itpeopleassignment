@@ -1,7 +1,8 @@
 This project is made with Typescript, for better type safety.
 
 ## Pre-requisites
-You need node.js and npm on your machine to run this application.
+Node.JS : You need node.js and npm on your machine to run this application.
+Mongodb : You need mongodb installed locally to run this api project.
 ## npm install
 This will install all the dependancies, production and dev.
 
