@@ -1,0 +1,35 @@
+{
+  "name": "it-people-assignment-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for Pipedrive assignment.",
+  "main": "npm start",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
+    "start": "tsc && node ./dist/app.js start",
+    "tsc": "tsc",
+    "test": "jest --verbose --coverage --detectOpenHandles --forceExit"
+  },
+  "author": "Siddharth Roychoudhury<debu2in@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.0",
+    "@types/jest": "^24.0.15",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/mongodb": "^3.1.28",
+    "@types/node": "^12.0.10",
+    "@types/supertest": "^2.0.7",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7"
+  }
+}
